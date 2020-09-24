@@ -1,7 +1,7 @@
 package stats
 
 import (
-	"github.com/usmon1983/stats/pkg/stats"
+	"github.com/usmon1983/bank/pkg/types"
 )
 
 //Avg рассчитывает среднюю сумму платежа
