@@ -1,5 +1,5 @@
-module github.com/usmon1983/bank/v2
+module github.com/user/bank/v2
 
 go 1.15
 
-require github.com/usmon1983/bank v0.0.0-20200924114119-1a2f81a727a8
+require github.com/usmon1983/bank/v2 v2.0.0
