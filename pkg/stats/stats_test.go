@@ -20,7 +20,7 @@ func TestCategoriesTotal(t *testing.T)  {
 		"food": 2_000_00,
 		"fun": 5_000_00,
 	} 
-	result := CategoriesTotalAvg(payments)
+	result := CategoriesAvg(payments)
 
 	if !reflect.DeepEqual(expected, result) {
 		t.Errorf("invalid result, expected: %v, actual: %v", expected, result)
