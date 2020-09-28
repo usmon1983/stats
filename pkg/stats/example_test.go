@@ -30,7 +30,7 @@ func ExampleAvg()  {
 
 	fmt.Println(PaymentAvg)
 
-	//Output: 2000000
+	//Output: 1500000
 }
 
 func ExampleTotalInCategory(){
@@ -39,19 +39,19 @@ func ExampleTotalInCategory(){
 		ID:			1,
 		Amount:		93_000,
 		Category: 	"Самбусахона",
-		Status: 	types.StatusOk,
+		Status: 	types.StatusFail,
 	  },
 	  {
 		ID:			2,
 		Amount:		87_000,
 		Category: 	"Самбусахона",
-		Status: 	types.StatusOk,
+		Status: 	types.StatusFail,
 	  },
 	  {
 		ID:			3,
 		Amount:		12_000,
 		Category: 	"Мантухона",
-		Status: 	types.StatusFail,
+		Status: 	types.StatusOk,
 	  },
 	}
 	
